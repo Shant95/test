@@ -1,0 +1,17 @@
+.menu{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    z-index: 11;
+    background-color: white;
+    overflow-y: scroll;
+    padding: 50px;
+    gap: 50px;
+}
+.links{
+display: flex;
+}
