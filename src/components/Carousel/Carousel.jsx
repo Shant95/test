@@ -11,6 +11,9 @@ const Carousel = () => {
     const handleBack = () => {
         setCurrentIndex(activeIndex - 1);
     }
+    const handleNext = () =>{
+        setCurrentIndex(activeIndex + 1);
+    }
 
 
     return (
